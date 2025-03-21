@@ -1,0 +1,464 @@
+# Mem0 Documentation Overview for LLM Agent
+
+This document is a comprehensive reference map of the Mem0 documentation. It outlines the chapters and links exactly as they appear in the sitemap and scraped pages. The descriptions below explain what can be found at each link so that the LLM agent knows where to look and can use websearch to retrieve the needed page.
+
+---
+
+## Main Navigation
+
+- **[Documentation](https://docs.mem0.ai/overview)**  
+  *Entry point for all documentation.*  
+  Contains the overall overview of Mem0, including its introduction, key features, and guides for getting started.
+
+- **[Your Dashboard](https://app.mem0.ai)**  
+  *User portal access.*  
+  This link directs to the dashboard where users can manage their account, view usage, and interact with the Mem0 platform.
+
+- **[Demo](https://mem0.dev/demo)**  
+  *Live demonstration of Mem0.*  
+  Showcases the real-time functionality of Mem0, highlighting how it powers AI assistants with persistent, contextual memory.
+
+- **[Discord](https://mem0.dev/DiD)**  
+  *Community and support hub.*  
+  Provides access to the Discord server for community discussions, support, and collaboration among users and developers.
+
+- **[GitHub](https://github.com/mem0ai/mem0)**  
+  *Source code and project contributions.*  
+  Links to the GitHub repository where the source code of Mem0 is hosted, along with issues, discussions, and contribution guidelines.
+
+- **Support**  
+  *Assistance and troubleshooting resources.*  
+  (Use associated support channels and links provided in context when detailed help is required.)
+
+---
+
+## Get Started
+
+This section is designed for new users to quickly get up and running with Mem0.
+
+- **[Overview](https://docs.mem0.ai/overview)**  
+  *Introduction and platform overview.*  
+  Provides a general introduction to Mem0, its purpose, and its main benefits for AI applications.
+
+- **[Quickstart](https://docs.mem0.ai/quickstart)**  
+  *Fast integration guide.*  
+  A concise guide with code samples and step-by-step instructions to integrate Mem0 into your applications quickly.
+
+- **[FAQs](https://docs.mem0.ai/faqs)**  
+  *Frequently Asked Questions.*  
+  Answers common questions and addresses typical issues encountered by new users.
+
+---
+
+## Core Concepts
+
+Understanding the fundamentals behind Mem0’s memory architecture.
+
+- **[Memory Types](https://docs.mem0.ai/core-concepts/memory-types)**  
+  *Different memory categories.*  
+  Explains the various types of memory that Mem0 can store and how each is used in context.
+
+- **[Memory Operations](https://docs.mem0.ai/core-concepts/memory-operations)**  
+  *Managing memory actions.*  
+  Details the operations available for handling memories (adding, updating, retrieving, and deleting).
+
+---
+
+## Platform
+
+Focuses on the overall Mem0 platform and how it enhances AI assistants.
+
+- **[Introduction](https://docs.mem0.ai/platform/overview)**  
+  *Platform fundamentals.*  
+  An introduction to the Mem0 platform, discussing its architecture and the benefits of persistent memory.
+
+- **[Guide](https://docs.mem0.ai/platform/quickstart)**  
+  *Platform integration quickstart.*  
+  Provides a quick guide to help developers integrate and use the platform effectively.
+  
+- **Features**  
+  *Detailed platform capabilities.*  
+  Describes the specific features available on the platform, such as dual storage architecture, smart retrieval, and API integration. (Feature-specific pages are available under the Features section.)
+
+---
+
+## Open Source
+
+For users interested in deploying or contributing to the open-source version of Mem0.
+
+- **[Overview](https://docs.mem0.ai/open-source/quickstart)**  
+  *Open source setup guide.*  
+  A quickstart guide for setting up Mem0 using the open-source version, with instructions and best practices.
+
+- **[Python SDK](https://docs.mem0.ai/open-source/python-quickstart)**  
+  *Python integration guide.*  
+  Documentation and examples to help integrate Mem0 using the Python SDK.
+
+- **[Node SDK](https://docs.mem0.ai/open-source/node-quickstart)**  
+  *Node.js integration guide.*  
+  Provides instructions and code examples for integrating Mem0 using the Node.js SDK.
+
+- **Features (Open Source Specific):**  
+  - [OpenAI Compatibility](https://docs.mem0.ai/features/openai_compatibility)  
+    *Using Mem0 with OpenAI models.*  
+    Details how Mem0 integrates with OpenAI models to enhance AI capabilities.
+    
+  - [Custom Fact Extraction Prompt](https://docs.mem0.ai/features/custom-fact-extraction-prompt)  
+    *Customizable fact extraction.*  
+    Guides on how to customize prompts for fact extraction during memory processing.
+    
+  - [Custom Update Memory Prompt](https://docs.mem0.ai/features/custom-update-memory-prompt)  
+    *Tailoring memory update prompts.*  
+    Explains how to modify the update prompts to better suit your application’s needs.
+
+### Graph Memory
+
+Specialized documentation on graph-based memory management.
+
+- **[Overview](https://docs.mem0.ai/open-source/graph_memory/overview)**  
+  *Graph memory introduction.*  
+  Explains the concept of graph memory and how relationships between data points are tracked.
+  
+- **[Features](https://docs.mem0.ai/open-source/graph_memory/features)**  
+  *Graph memory capabilities.*  
+  Lists the features and advantages of using graph memory for more complex memory relationships.
+
+---
+
+## LLMs
+
+Focuses on integrating and configuring Large Language Models within Mem0.  
+*(Note: Specific LLM pages are found under the components section.)*
+
+---
+
+## Vector Databases
+
+Describes how vector databases are used for semantic search and memory storage.
+
+- **[Overview](https://docs.mem0.ai/components/vectordbs/overview)**  
+  *Introduction to vector databases.*  
+  Provides an overview of the vector databases supported by Mem0 and their role in memory retrieval.
+
+- **[Config](https://docs.mem0.ai/components/vectordbs/config)**  
+  *Configuration guide for vector databases.*  
+  Details on setting up and configuring vector databases with Mem0 for optimal performance.
+
+---
+
+## Embedding Models
+
+Covers the embedding models used to create semantic representations of text.  
+*(Further details can be found within the Embedders section under components.)*
+
+---
+
+## Mem0 Home Page
+
+- **[Mem0 home page](https://github.com/mem0ai/mem0)**  
+  *GitHub project landing page.*  
+  The main page on GitHub for Mem0, providing access to source code, project updates, and contribution guidelines.
+
+---
+
+## Examples
+
+Real-world examples demonstrating how to implement Mem0 in various applications.
+
+- **[Overview](https://docs.mem0.ai/examples/overview)**  
+  *Examples section overview.*  
+  Summarizes different use cases and implementations of Mem0 across industries.
+
+- **[Mem0 Demo](https://docs.mem0.ai/examples/mem0-demo)**  
+  *Live demo of Mem0 in action.*  
+  Showcases a demo that illustrates how Mem0 powers interactive AI applications.
+
+- **[AI Companion in Node.js](https://docs.mem0.ai/examples/ai_companion_js)**  
+  *Building an AI companion with Node.js.*  
+  Provides an example of how to create a personalized AI companion that remembers conversations.
+
+- **[Mem0 with Ollama](https://docs.mem0.ai/examples/mem0-with-ollama)**  
+  *Running Mem0 locally with Ollama.*  
+  Demonstrates how to deploy Mem0 on a local setup using Ollama for private AI experiences.
+
+- **[Personalized AI Tutor](https://docs.mem0.ai/examples/personal-ai-tutor)**  
+  *Creating a customized AI tutor.*  
+  An example use case for building an educational assistant that adapts to individual learning styles.
+
+- **[Customer Support AI Agent](https://docs.mem0.ai/examples/customer-support-agent)**  
+  *Building a support agent.*  
+  Shows how to develop an AI agent for customer support that leverages memory to provide context-aware assistance.
+
+- **[Personal AI Travel Assistant](https://docs.mem0.ai/examples/personal-travel-assistant)**  
+  *Travel assistant example.*  
+  Demonstrates creating a travel assistant that remembers user preferences and past trips.
+
+- **[LlamaIndex ReAct Agent](https://docs.mem0.ai/examples/llama-index-mem0)**  
+  *Combining LlamaIndex with Mem0.*  
+  Explains how to build an agent that uses persistent memory to enhance interactions using LlamaIndex.
+  
+- **[Chrome extension](https://docs.mem0.ai/examples/chrome-extension)**  
+  *Integrating Mem0 with a Chrome extension.*  
+  Provides an example of how to add long-term memory to browser-based AI interactions.
+  
+- **[Document Editing with Mem0](https://docs.mem0.ai/examples/document-writing)**  
+  *Writing assistant example.*  
+  Demonstrates using Mem0 to create a document editing assistant that adapts to a user’s style.
+  
+- **[Multimodal Demo with Mem0](https://docs.mem0.ai/examples/multimodal-demo)**  
+  *Multimodal capabilities demo.*  
+  Showcases how Mem0 supports integrating text with other media types for richer interactions.
+  
+- **[Personalized Deep Research](https://docs.mem0.ai/examples/personalized-deep-research)**  
+  *Deep research AI assistant.*  
+  An example focused on building a research assistant that remembers and builds on user research goals.
+  
+- **[Mem0 as an Agentic Tool](https://docs.mem0.ai/examples/mem0-agentic-tool)**  
+  *Agent integration example.*  
+  Explains how to integrate Mem0’s memory capabilities with OpenAI’s Agents SDK to create persistent AI agents.
+  
+- **[OpenAI Inbuilt Tools](https://docs.mem0.ai/examples/openai-inbuilt-tools)**  
+  *Using built-in OpenAI tools with Mem0.*  
+  Demonstrates how Mem0 can enhance AI applications by leveraging OpenAI’s native toolset.
+
+---
+
+## API Reference
+
+This section documents the endpoints available for interacting with Mem0 programmatically.
+
+- **[Overview](https://docs.mem0.ai/api-reference/overview)**  
+  *API entry point.*  
+  Summarizes the available API endpoints and provides a high-level guide to the API structure.
+
+### Memory APIs
+Endpoints for managing memories (adding, updating, retrieving, and deleting):
+
+- [Memory add](https://docs.mem0.ai/api-reference/memory/add-memories)  
+  *Add new memories to the system.*
+
+- [Memory delete](https://docs.mem0.ai/api-reference/memory/delete-memory)  
+  *Delete a specific memory.*
+
+- [Batch Delete](https://docs.mem0.ai/api-reference/memory/batch-delete)  
+  *Delete multiple memories at once.*
+
+- [Batch Update](https://docs.mem0.ai/api-reference/memory/batch-update)  
+  *Update multiple memories simultaneously.*
+
+- [Create Memory Export](https://docs.mem0.ai/api-reference/memory/create-memory-export)  
+  *Generate an export of stored memories.*
+
+- [Delete Memories](https://docs.mem0.ai/api-reference/memory/delete-memories)  
+  *Delete selected memories from the system.*
+
+- [Get Memory](https://docs.mem0.ai/api-reference/memory/get-memory)  
+  *Retrieve details of a specific memory.*
+
+- [Get Memory Export](https://docs.mem0.ai/api-reference/memory/get-memory-export)  
+  *Access an exported memory file.*
+
+- [History Memory](https://docs.mem0.ai/api-reference/memory/history-memory)  
+  *View the history of memory interactions.*
+
+- [Update Memory](https://docs.mem0.ai/api-reference/memory/update-memory)  
+  *Update details of an existing memory.*
+
+- [V1 Get Memories](https://docs.mem0.ai/api-reference/memory/v1-get-memories)  
+  *Version 1: Retrieve memories.*
+
+- [V1 Search Memories](https://docs.mem0.ai/api-reference/memory/v1-search-memories)  
+  *Version 1: Search for memories based on criteria.*
+
+- [V2 Get Memories](https://docs.mem0.ai/api-reference/memory/v2-get-memories)  
+  *Version 2: Enhanced retrieval of memories.*
+
+- [V2 Search Memories](https://docs.mem0.ai/api-reference/memory/v2-search-memories)  
+  *Version 2: Enhanced search for memories.*
+
+### Entities APIs
+Endpoints for managing entities such as users and agents:
+
+- [Delete User](https://docs.mem0.ai/api-reference/entities/delete-user)  
+  *Remove a user entity.*
+
+- [Get Users](https://docs.mem0.ai/api-reference/entities/get-users)  
+  *Retrieve a list of user entities.*
+
+### Organization APIs
+Endpoints for managing organizations and projects:
+
+- [Add Org Member](https://docs.mem0.ai/api-reference/organization/add-org-member)  
+  *Add a new member to an organization.*
+
+- [Create Org](https://docs.mem0.ai/api-reference/organization/create-org)  
+  *Create a new organization.*
+
+- [Delete Org](https://docs.mem0.ai/api-reference/organization/delete-org)  
+  *Delete an existing organization.*
+
+- [Get Org](https://docs.mem0.ai/api-reference/organization/get-org)  
+  *Retrieve details of an organization.*
+
+- [Get Org Members](https://docs.mem0.ai/api-reference/organization/get-org-members)  
+  *List all members of an organization.*
+
+- [Get Orgs](https://docs.mem0.ai/api-reference/organization/get-orgs)  
+  *Retrieve a list of organizations.*
+
+### Webhook APIs
+Endpoints for managing webhooks:
+
+- [Create Webhook](https://docs.mem0.ai/api-reference/webhook/create-webhook)  
+  *Create a new webhook.*
+
+- [Delete Webhook](https://docs.mem0.ai/api-reference/webhook/delete-webhook)  
+  *Delete an existing webhook.*
+
+- [Get Webhook](https://docs.mem0.ai/api-reference/webhook/get-webhook)  
+  *Retrieve details of a webhook.*
+
+- [Update Webhook](https://docs.mem0.ai/api-reference/webhook/update-webhook)  
+  *Update an existing webhook.*
+
+### Embedders & LLMs
+
+Documentation for integrating embedding models and large language models.
+
+- **Embedders:**
+  - [Config](https://docs.mem0.ai/components/embedders/config)  
+    *Configuration for embedding models.*
+  - [Azure OpenAI](https://docs.mem0.ai/components/embedders/models/azure_openai)  
+    *Using Azure OpenAI for embeddings.*
+  - [Gemini](https://docs.mem0.ai/components/embedders/models/gemini)  
+    *Gemini model for embeddings.*
+  - [Huggingface](https://docs.mem0.ai/components/embedders/models/huggingface)  
+    *Huggingface models for generating embeddings.*
+  - [Ollama](https://docs.mem0.ai/components/embedders/models/ollama)  
+    *Ollama integration for embeddings.*
+  - [OpenAI](https://docs.mem0.ai/components/embedders/models/openai)  
+    *OpenAI models for embeddings.*
+  - [VertexAI](https://docs.mem0.ai/components/embedders/models/vertexai)  
+    *VertexAI models for embeddings.*
+  - [Overview](https://docs.mem0.ai/components/embedders/overview)  
+    *General overview of embedding models.*
+
+- **LLMs:**
+  - [Config](https://docs.mem0.ai/components/llms/config)  
+    *LLM configuration guidelines.*
+  - [Anthropic](https://docs.mem0.ai/components/llms/models/anthropic)  
+    *Integration of Anthropic’s Claude 3.7 Sonnet model.*
+  - [AWS Bedrock](https://docs.mem0.ai/components/llms/models/aws_bedrock)  
+    *Using AWS Bedrock with Mem0.*
+  - [Azure OpenAI](https://docs.mem0.ai/components/llms/models/azure_openai)  
+    *Using Azure OpenAI models.*
+  - [Deepseek](https://docs.mem0.ai/components/llms/models/deepseek)  
+    *Deepseek model details.*
+  - [Gemini](https://docs.mem0.ai/components/llms/models/gemini)  
+    *Gemini LLM integration.*
+  - [Google AI](https://docs.mem0.ai/components/llms/models/google_AI)  
+    *Using Google AI models.*
+  - [Groq](https://docs.mem0.ai/components/llms/models/groq)  
+    *Integration with Groq models.*
+  - [Litellm](https://docs.mem0.ai/components/llms/models/litellm)  
+    *Litellm model documentation.*
+  - [Mistral AI](https://docs.mem0.ai/components/llms/models/mistral_AI)  
+    *Mistral AI model details.*
+  - [Ollama](https://docs.mem0.ai/components/llms/models/ollama)  
+    *Ollama as an LLM option.*
+  - [OpenAI](https://docs.mem0.ai/components/llms/models/openai)  
+    *OpenAI LLM documentation.*
+  - [Together](https://docs.mem0.ai/components/llms/models/together)  
+    *Using the Together model with Mem0.*
+  - [xAI](https://docs.mem0.ai/components/llms/models/xAI)  
+    *xAI integration details.*
+  - [Overview](https://docs.mem0.ai/components/llms/overview)  
+    *Overview of LLM integrations.*
+
+### Vector Databases (Detailed)
+
+- **[Overview](https://docs.mem0.ai/components/vectordbs/overview)**  
+  *Overview of vector database options.*
+- **[Config](https://docs.mem0.ai/components/vectordbs/config)**  
+  *Guidelines for configuring vector databases.*
+
+Specific database integrations:
+  - [Azure AI Search](https://docs.mem0.ai/components/vectordbs/dbs/azure_ai_search)
+  - [Chroma](https://docs.mem0.ai/components/vectordbs/dbs/chroma)
+  - [Elasticsearch](https://docs.mem0.ai/components/vectordbs/dbs/elasticsearch)
+  - [Milvus](https://docs.mem0.ai/components/vectordbs/dbs/milvus)
+  - [Opensearch](https://docs.mem0.ai/components/vectordbs/dbs/opensearch)
+  - [Pgvector](https://docs.mem0.ai/components/vectordbs/dbs/pgvector)
+  - [Pinecone](https://docs.mem0.ai/components/vectordbs/dbs/pinecone)
+  - [Qdrant](https://docs.mem0.ai/components/vectordbs/dbs/qdrant)
+  - [Redis](https://docs.mem0.ai/components/vectordbs/dbs/redis)
+  - [Supabase](https://docs.mem0.ai/components/vectordbs/dbs/supabase)
+  - [Vertex AI Vector Search](https://docs.mem0.ai/components/vectordbs/dbs/vertex_ai_vector_search)
+  - [Weaviate](https://docs.mem0.ai/components/vectordbs/dbs/weaviate)
+
+---
+
+## Contributing
+
+Guidelines and resources for contributing to the Mem0 project.
+
+- **[Development](https://docs.mem0.ai/contributing/development)**  
+  *Development contribution guide.*  
+  Instructions and best practices for developers contributing code.
+
+- **[Documentation](https://docs.mem0.ai/contributing/documentation)**  
+  *Documentation contribution guide.*  
+  Guidelines for contributing improvements or fixes to the documentation.
+
+---
+
+## Additional Sections
+
+- **Core Concepts**  
+  *(Covered above)* – Foundational ideas behind Mem0’s memory processing.
+
+- **Examples**  
+  *(Covered above)* – Real-world implementations and demos.
+
+- **FAQs**  
+  *(Covered in Get Started)* – Answers to common questions at [FAQs](https://docs.mem0.ai/faqs).
+
+- **Features**  
+  A comprehensive list of Mem0 features covering aspects such as advanced retrieval, async client, contextual add, custom categories, direct import, feedback mechanisms, graph memory, memory export, multimodal support, OpenAI compatibility, platform overview, selective memory, and webhooks.  
+  Specific feature pages include:  
+  - [Advanced Retrieval](https://docs.mem0.ai/features/advanced-retrieval)  
+  - [Async Client](https://docs.mem0.ai/features/async-client)  
+  - [Contextual Add](https://docs.mem0.ai/features/contextual-add)  
+  - [Custom Categories](https://docs.mem0.ai/features/custom-categories)  
+  - [Custom Fact Extraction Prompt](https://docs.mem0.ai/features/custom-fact-extraction-prompt)  
+  - [Custom Instructions](https://docs.mem0.ai/features/custom-instructions)  
+  - [Custom Update Memory Prompt](https://docs.mem0.ai/features/custom-update-memory-prompt)  
+  - [Direct Import](https://docs.mem0.ai/features/direct-import)  
+  - [Feedback Mechanism](https://docs.mem0.ai/features/feedback-mechanism)  
+  - [Graph Memory](https://docs.mem0.ai/features/graph-memory)  
+  - [Memory Export](https://docs.mem0.ai/features/memory-export)  
+  - [Multimodal Support](https://docs.mem0.ai/features/multimodal-support)  
+  - [OpenAI Compatibility](https://docs.mem0.ai/features/openai_compatibility)  
+  - [Platform Overview](https://docs.mem0.ai/features/platform-overview)  
+  - [Selective Memory](https://docs.mem0.ai/features/selective-memory)  
+  - [Webhooks](https://docs.mem0.ai/features/webhooks)
+
+- **Integrations**  
+  Documentation for integrating Mem0 with third-party tools:
+  - [Autogen](https://docs.mem0.ai/integrations/autogen)
+  - [Crewai](https://docs.mem0.ai/integrations/crewai)
+  - [Dify](https://docs.mem0.ai/integrations/dify)
+  - [Langchain](https://docs.mem0.ai/integrations/langchain)
+  - [Langchain Tools](https://docs.mem0.ai/integrations/langchain-tools)
+  - [Langgraph](https://docs.mem0.ai/integrations/langgraph)
+  - [LlamaIndex](https://docs.mem0.ai/integrations/llama-index)
+  - [MCP Server](https://docs.mem0.ai/integrations/mcp-server)
+  - [Overview](https://docs.mem0.ai/integrations/overview)
+  - [Vercel AI SDK](https://docs.mem0.ai/integrations/vercel-ai-sdk)
+
+- **Quickstart**  
+  Direct guide for starting with Mem0 at [Quickstart](https://docs.mem0.ai/quickstart).
+
+---
+
+This overview should serve as a clear, structured guide for the LLM agent. Each link name is kept consistent with the original documentation, and the descriptions indicate what information and resources can be found on each page. The agent can now use websearch to retrieve specific pages when detailed information is needed.
